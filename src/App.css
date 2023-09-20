@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  color: gainsboro;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.header_element {
+  color: gainsboro;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header_element:hover {
+  opacity: 0.9;
+}

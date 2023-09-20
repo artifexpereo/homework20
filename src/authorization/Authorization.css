@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(33, 33, 33);
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 50px 0 30px 0;
+}
+
+.form__header-lock {
+    width: 35px;
+    height: 35px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.form__header-lock-icon {
+    width: 15px;
+    height: 14px;
+    padding: 10px;
+}
+
+.form__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__inputs {
+    margin-bottom: 15px;
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    height: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+input, select, textarea {
+    color: gainsboro;
+}
+
+.form__check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.form__check-mark {
+    background-color: gainsboro;
+    background: none;
+    border: 1px solid gainsboro;
+    width: 14px;
+    height: 14px;
+}
+
+.form__signin {
+    height: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(61, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px 25px 0;
+    margin-bottom: 15px;
+}
+
+.form__signin:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.form__footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: gainsboro;
+    margin-bottom: 70px;
+}
+
+.form__footer-buttons {
+    color: rgb(51, 212, 212);
+    text-decoration: none;
+}
+
+.form__footer-buttons:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form__copyright {
+    text-align: center;
+    font-size: 11px;
+    color: gainsboro;
+}

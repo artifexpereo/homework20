@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+}
+
+.reg {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reg__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 50px 0 30px 0;
+}
+
+.reg__header-lock {
+    width: 35px;
+    height: 35px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.reg__header-lock-icon {
+    width: 15px;
+    height: 14px;
+    padding: 10px;
+}
+
+.reg__forms-name {
+    display: flex;
+    gap: 10px;
+}
+
+.reg__forms-name-inp {
+    margin-bottom: 15px;
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 10px;
+    width: 125px;
+    height: 25px;
+}
+
+.reg__forms-inf-inp {
+    margin-bottom: 15px;
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    height: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.reg__check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.reg__signup {
+    height: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(61, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px 25px 0;
+    margin-bottom: 15px;
+}
+
+.reg__signup:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.reg__footer {
+    text-align: end;
+    margin-bottom: 70px;
+}
+
+.reg__footer-button {
+    font-size: 11px;
+    color: gainsboro;
+    color: rgb(51, 212, 212);
+    text-decoration: none;
+}
+
+.reg__footer-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.reg__copyright {
+    text-align: center;
+    font-size: 11px;
+    color: gainsboro;
+}
